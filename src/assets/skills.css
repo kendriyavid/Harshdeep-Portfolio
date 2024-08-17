@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sora:wght@600;700&display=swap');
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+div.Skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+p.heading{
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+
+    color: white;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+div.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+ul{ 
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    color: white;
+    font-size: 32px;
+}
+
+ul li{
+    margin: 5px;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sora:wght@600;700&display=swap');
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+div.Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+p.heading {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    color: burlywood;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+div.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+
+ul {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    color: black;
+    font-size: 32px;
+    flex-grow: 1;
+    margin: 0 10px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 20px 0;
+}

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+div.Home{
+    background-color: black;
+}
+div.Hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+div.Hero video{
+    
+    justify-self: center;
+}
+
+div.Hero ::-webkit-media-controls {
+    display: none;
+  }

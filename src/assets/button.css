@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+div.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 52px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-family: 'Sora', sans-serif;
+    border: 2px solid transparent; /* Initial border is transparent */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+div.Button:hover {
+    border-color: white; /* White border on hover */
+}

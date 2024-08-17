@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sora:wght@600;700&display=swap');
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+
+div.Footer{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+div.f1{
+    display: flex;
+    flex-grow: 1;
+    /* margin-top: 20px; */
+
+}

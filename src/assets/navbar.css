@@ -1,0 +1,9 @@
+div.Navbar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    width: auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
