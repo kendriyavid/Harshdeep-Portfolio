@@ -23,7 +23,7 @@ function Projects() {
                 <p id='description'>Samvaad is a web-based chatting application built with React, offering real-time messaging and communication features similar to WhatsApp.</p>
               </div>
             </div>
-            <hr></hr>
+            
         </div>
     </>
   )

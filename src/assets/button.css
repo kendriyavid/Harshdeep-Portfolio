@@ -18,8 +18,26 @@ div.Button {
     font-family: 'Sora', sans-serif;
     border: 2px solid transparent; /* Initial border is transparent */
     transition: border-color 0.3s ease; /* Smooth transition for border color */
+    font-size: 16px;
+    margin: 5px;
 }
 
 div.Button:hover {
     border-color: white; /* White border on hover */
+}
+@media (max-width: 768px) {
+    div.Button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 63px;
+        height: 26px;
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        font-family: 'Sora', sans-serif;
+        border: 1px solid transparent; /* Initial border is transparent */
+        transition: border-color 0.3s ease; /* Smooth transition for border color */
+        font-size: 10px;
+    }
 }

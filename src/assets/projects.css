@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sora:wght@600;700&display=swap');
+
 * {
     margin-top: 0;
     margin-bottom: 0;
     box-sizing: border-box;
 }
 
-div.Projects{
+div.Projects {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -14,34 +15,37 @@ div.Projects{
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 20px;
+    height: auto; /* Let height adjust based on content */
 }
 
-div.project{
+div.project {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     width: 100%;
+    flex-wrap: wrap; /* Allow items to wrap */
 }
-
-#description{
-    font-family: "Playfair Display", serif;
-    font-style: normal;
-    font-size: 20px;
-}
-
 
 div.p1 {
     flex-grow: 1;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 280px; /* Prevent items from getting too narrow */
+    flex-basis: calc(33.33% - 40px); /* Allow each project to take up one-third of the container */
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .box {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 200px;
     background-color: lightblue;
     display: flex;
@@ -52,11 +56,23 @@ div.p1 {
     color: white;
     border: 2px solid blue;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-hr{
-    hr {
-        border: 1px solid white;
-        margin: 20px;
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    div.p1 {
+        flex-basis: calc(50% - 40px); /* Each project takes up half the container width */
+        font-size: 15px;
+    }
+
+    div.p1 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    div.p1 {
+        flex-basis: 100%; /* On very small screens, each project takes up the full width */
     }
 }

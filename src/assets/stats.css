@@ -4,9 +4,9 @@ div.Stats{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
     align-items: center;
+    height: 500px;
+    background-color: white;
 }
 
 p.stats{
@@ -20,8 +20,38 @@ p.stats{
 div.stats-details{
     font-family: "Playfair Display", serif;
     font-style: normal;
-    color: burlywood;
-    font-size: 32px;
+    color: black;
+    font-size: 20px;
     margin-bottom: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    div.Stats{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        height: 250px;
+        background-color: white;
+    }
+    p.stats{
+        font-family: "Playfair Display", serif;
+        font-style: normal;
+        color: burlywood;
+        font-size: 32px;
+        margin-bottom: 10px;
+        
+    }
+    div.stats-details{
+        font-family: "Playfair Display", serif;
+        font-style: normal;
+        color: black;
+        font-size: 15px;
+        margin-bottom: 10px;
+        
+    }
     
 }

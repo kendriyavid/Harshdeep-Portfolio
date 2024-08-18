@@ -22,7 +22,6 @@ function Home() {
       <Skills />
       <Projects />
       <Stats></Stats>
-      <hr />
       <Footer />
     </>
   );

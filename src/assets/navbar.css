@@ -5,5 +5,11 @@ div.Navbar{
     background-color: black;
     width: auto;
     justify-content: space-evenly;
-    margin-top: 10px;
+    height: 60px;
+}
+
+@media (max-width: 768px) {
+   div.Navbar{
+    height: 40px;
+   }
 }

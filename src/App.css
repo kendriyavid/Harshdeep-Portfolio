@@ -9,5 +9,6 @@
 body{
   /* display: flex; */
   color: white;
-  background-color: black;
+  background: rgb(0,0,0);
+  /* background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgba(9,9,121,1) 90%); */
 }
