@@ -54,7 +54,6 @@ ul li{
 
 div.Skills {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -68,6 +67,7 @@ p.heading {
     color: burlywood;
     font-size: 64px;
     margin-bottom: 20px;
+    
 }
 
 div.list {
@@ -94,6 +94,19 @@ ul li {
     margin: 20px 0;
 }
 
+
+div.sp1{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+div.cube{
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* width: 50%; */
+}
 @media (max-width: 768px) {
     
     div.Skills {

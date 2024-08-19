@@ -23,3 +23,10 @@ div.Hero video{
 div.Hero ::-webkit-media-controls {
     display: none;
   }
+
+div.construction-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

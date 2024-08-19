@@ -1,16 +1,27 @@
+import React from 'react';
+import './button.css';
 
-import React from 'react'
-import './button.css'
+function Button({ name, link, target = '_self' }) {
+  const handleClick = () => {
+    if (link.startsWith('.') || link.startsWith('#')) {
+      const element = document.querySelector(link);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        console.log('Element not found for link:', link);
+      }
+    } else if (link) {
+      window.open(link, target); 
+    } else {
+      console.log('Button clicked without a link'); 
+    }
+  };
 
-function Button({props}) {
-    const name = props
   return (
-    <>
-        <div className='Button'>
-            {name}
-        </div>
-    </>
-  )
+    <div className='Button' onClick={handleClick}>
+      {name}
+    </div>
+  );
 }
 
-export default Button
+export default Button;

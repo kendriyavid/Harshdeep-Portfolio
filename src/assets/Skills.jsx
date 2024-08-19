@@ -1,11 +1,17 @@
 import React from 'react'
 import './skills.css'
+import Three from './three'
 function Skills() {
   return (
     <>
         <div className='Skills'>
-            <p className='heading'>Skills</p>
-            <div className='list'>
+            {/* <div className='sp1'>
+                <p className='heading'>Skills</p>
+            </div> */}
+            <div className='cube'>
+                <Three></Three>
+            </div>
+            {/* <div className='list'>
                 <ul id='one'>
                     <li>Golang</li>
                     <li>C++</li>
@@ -21,7 +27,9 @@ function Skills() {
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul> 
-            </div>
+            </div> */}
+
+            
         </div>
     </>
   )

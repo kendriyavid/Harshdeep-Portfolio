@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <>
       <div className='Navbar'>
-        <Button props='Projects'></Button>
-        <Button props='Experience'></Button>
-        <Button props='Contact Me'></Button>
+        <Button name='Projects' link={'.Projects'}></Button>
+        <Button name='Experience'></Button>
+        <Button name='Contact Me'></Button>
       </div>
     </>
   )
