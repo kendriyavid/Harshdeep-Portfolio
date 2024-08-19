@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css'
-import Three from './three'
+import Three from './Three.jsx'
 function Skills() {
   return (
     <>
