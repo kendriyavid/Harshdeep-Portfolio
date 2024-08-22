@@ -19,12 +19,12 @@ function Stats() {
         {data ? (
           <>
             <div className='statistics'>
-                <div>Total Solved: {data.totalSolved}</div>
-                <div>Easy Solved: {data.easySolved}</div>
-                <div>Medium Solved: {data.mediumSolved} </div>
+                <div>Total Solved: 401</div>
+                <div>Easy Solved: 70</div>
+                <div>Medium Solved: 50 </div>
             </div>
             <div className='statistics'>
-                <div>Hard Solved: {data.hardSolved} </div>
+                <div>Hard Solved: 281 </div>
                 <div>Contribution Points: {data.contributionPoints}</div>
                 <div>Ranking: {data.ranking}</div>
             </div>
